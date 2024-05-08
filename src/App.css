@@ -1,0 +1,41 @@
+
+
+@font-face {
+  font-family: CustomNotoSansMedium;
+  src: url("assets/fonts/NotoSans-Medium.ttf"),
+}
+
+@font-face {
+  font-family: CustomNotoSansRegular;
+  src: url("assets/fonts/NotoSans-Regular.ttf"),
+}
+
+@font-face {
+  font-family: CustomNotoSansBold;
+  src: url("assets/fonts/NotoSans-Bold.ttf"),
+}
+
+@font-face {
+  font-family: Bariol;
+  src: url("assets/fonts/Bariol_Regular.otf"),
+}
+
+
+:root,
+[data-bs-theme=light] {
+  --tblr-body-font-family: CustomNotoSansMedium, CustomNotoSansRegular, CustomNotoSansBold;
+  /*--tblr-primary: #003e7c;
+  --tblr-primary-rgb: 0, 62, 124;*/
+}
+
+body {
+  margin: 0;
+  font-feature-settings: "cv03", "cv04", "cv11";
+  -webkit1-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+

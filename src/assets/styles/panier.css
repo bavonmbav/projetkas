@@ -1,0 +1,41 @@
+/* styles.css */
+
+.pagination {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.pagination li:hover {
+    background-color: #5effbc;
+}
+.pagination li.active {
+    background-color: #007bff;
+    color: #fff;
+}
+.a {
+    color: #fff;
+   text-decoration: none;
+}
+.a:hover {
+    text-decoration: none;
+  }
+  
+  .btn-delete{
+
+    background-color: brown;
+  }
+  .btn-update{
+    background-color: rgb(165, 132, 108);
+  }
+  .colrow{
+    flex-direction: row ;
+  }

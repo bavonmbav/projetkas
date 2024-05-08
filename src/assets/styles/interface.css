@@ -1,0 +1,106 @@
+.a:hover{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    color: white;
+    width: 100%;
+    padding: 14px 20px;
+    background-color: cadetblue;
+    margin: 2px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-direction: column; Deux colonnes de largeur égale */
+    gap: 1rem;
+    width: 100%;
+    max-Width: 700px;
+    margin: auto;
+}
+.forms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 9rem;
+    width: 60%;
+    max-Width: 300px;
+    margin: auto;
+}
+.input, .select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btnajoute{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 2px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btna{
+    width: 100%;
+    background-color: #172f3a;
+    color: white;
+    padding: auto;
+    margin: auto;
+    border: none;
+    text-decoration: none;
+    text-decoration-color: #7c8b92;
+
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btna:hover{
+    background-color: #174219;
+}
+.btnajoute:hover{
+    background-color: #405541;
+}
+.contenaire{
+    border-radius: 5px;
+    background-color: #ffffff;
+    
+}
+.label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.notifaction{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.success{
+    background-color: #d4edda;
+    color: #155724;
+}
+.error{
+    background-color: #f8d7da;
+    color: #721c24;
+}
